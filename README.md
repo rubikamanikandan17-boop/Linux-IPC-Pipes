@@ -24,6 +24,7 @@ Testing the C Program for the desired output.
 # PROGRAM:
 
 ## C Program that illustrate communication between two process using unnamed pipes using Linux API system calls
+```
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -81,14 +82,7 @@ else
 n=read(fd,buff,2000);
 write(wfd,buff,n);
 }
-
-
-
-
-
-
-<img width="480" height="270" alt="image" src="https://github.com/user-attachments/assets/c007186d-c257-4a15-a98f-950ae7516f4f" />
-
+```
 
 
 ## OUTPUT
